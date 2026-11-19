@@ -145,9 +145,26 @@ El control de estos factores permitirá reducir la influencia de variables exter
 Aunque estos controles no eliminan completamente todos los sesgos, contribuyen a que la comparación entre el grupo experimental y el grupo de control sea más confiable.
 
 
+
 ## 8. Limitaciones del diseño
 
-*¿Qué podría invalidar el experimento si no se controla? ¿Qué no se podrá concluir?*
+El experimento presenta algunas limitaciones que deben considerarse para interpretar correctamente sus resultados.
+
+1. **Tamaño de la muestra:** Se trabajará con 10 tiendas distribuidas en dos grupos de 5. Este número permite realizar un estudio piloto, pero podría ser insuficiente para detectar diferencias pequeñas en las ventas o generalizar los resultados a todas las tiendas de RetailAndina S.A.
+
+2. **Diferencias entre tiendas:** Las tiendas pueden presentar distintas características, como ubicación geográfica, tamaño, afluencia de clientes y hábitos de consumo. Aunque la asignación aleatoria reduce el sesgo de selección, no garantiza que ambos grupos sean completamente equivalentes.
+
+3. **Promociones y disponibilidad del producto:** Las promociones imprevistas, los cambios de precio o la falta de inventario podrían modificar las ventas independientemente de la ubicación del producto. Si estos factores no se controlan o registran adecuadamente, podrían afectar la validez de la comparación.
+
+4. **Duración del experimento:** El período de cuatro semanas podría ser insuficiente para identificar efectos a largo plazo, variaciones estacionales o cambios permanentes en el comportamiento de los consumidores.
+
+5. **Ausencia de cegamiento completo:** El personal de las tiendas podrá observar la ubicación del producto y conocer la intervención, lo que podría modificar involuntariamente su comportamiento, por ejemplo, al recomendarlo con mayor frecuencia.
+
+6. **Limitaciones de la interpretación:** Los resultados permitirán estimar el efecto de la ubicación del producto en las tiendas participantes durante el período estudiado, siempre que se respete la asignación y se controlen adecuadamente los factores externos. Sin embargo, no permitirán asegurar que el mismo efecto ocurra en todas las tiendas, en otros períodos o con productos diferentes.
+
+**Conclusión:**
+
+El diseño propuesto permite evaluar de manera controlada la relación causal entre la ubicación del producto estrella y sus ventas. No obstante, la interpretación dependerá del cumplimiento del protocolo, la calidad de los registros y el control de los factores externos. Por ello, cualquier resultado deberá analizarse considerando las limitaciones señaladas.
 
 ## 9. Comparación en código (Python/R)
 
