@@ -110,11 +110,19 @@ La asignación aleatoria no garantiza que ambos grupos sean idénticos, especial
 Cada tienda conservará su ubicación asignada durante las cuatro semanas del experimento.
 
 
+
 ## 6. Respuesta y medición
 
-- Variable respuesta:
-- Período de medición:
-- Quién registra y cómo (¿ciego?):
+- **Variable respuesta:** Número de unidades vendidas por semana del producto estrella en cada tienda de RetailAndina S.A. Esta variable es cuantitativa discreta y permitirá comparar las ventas promedio semanales entre el grupo experimental y el grupo de control.
+
+- **Período de medición:** Cuatro semanas consecutivas. Se registrarán las ventas del producto estrella al finalizar cada semana en las 10 tiendas participantes. Se obtendrán 40 registros semanales (10 tiendas × 4 semanas), correspondientes a 10 unidades experimentales.
+
+- **Quién registra y cómo (¿ciego?):** Las ventas serán registradas mediante el sistema de punto de venta (POS) de cada tienda. Al finalizar cada semana, el equipo de Business Intelligence recopilará los datos y verificará que correspondan al mismo producto y período de medición.
+
+No será posible aplicar un cegamiento completo, porque el personal de las tiendas podrá observar la ubicación del producto. Sin embargo, se utilizarán registros automáticos de ventas para reducir posibles sesgos de medición. Siempre que sea posible, el análisis inicial se realizará con los grupos identificados mediante códigos, sin revelar cuál corresponde al tratamiento.
+
+Cada registro incluirá el código de la tienda, la semana, la ubicación asignada y las unidades vendidas del producto estrella.
+
 
 ## 7. Factores a controlar (mínimo 4)
 
