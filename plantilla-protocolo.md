@@ -166,10 +166,41 @@ El experimento presenta algunas limitaciones que deben considerarse para interpr
 
 El diseño propuesto permite evaluar de manera controlada la relación causal entre la ubicación del producto estrella y sus ventas. No obstante, la interpretación dependerá del cumplimiento del protocolo, la calidad de los registros y el control de los factores externos. Por ello, cualquier resultado deberá analizarse considerando las limitaciones señaladas.
 
+
 ## 9. Comparación en código (Python/R)
 
-*Escribe `scripts/comparacion_experimento.py` (o `.R`): debe cargar `plantillas/registro_experimento.csv` y calcular el promedio de `ventas_producto` por `ubicacion`. Incluye la salida y responde:*
+Se utilizó Python y la biblioteca pandas para analizar los datos de ejemplo contenidos en `plantillas/registro_experimento.csv`. El programa se encuentra en `scripts/comparacion_experimento.py` y permite calcular las ventas promedio por ubicación y contar los registros de cada grupo.
 
-- ¿Qué grupo muestra mayor venta promedio en la plantilla?
-- ¿Por qué con 4 filas no se puede concluir nada sobre el efecto de la ubicación?
-- Si el experimento se ejecutara con tu protocolo, ¿qué le faltaría a este análisis para ser justo?
+**Resultados de la ejecución:**
+
+```text
+Promedio de ventas por ubicación:
+ubicacion
+habitual             1040.0
+pasillo_principal    1335.0
+Name: ventas_producto, dtype: float64
+
+Número de registros por grupo:
+ubicacion
+pasillo_principal    2
+habitual             2
+Name: count, dtype: int64
+```
+
+**¿Qué grupo muestra mayor venta promedio en la plantilla?**
+
+El grupo del pasillo principal presenta un promedio de 1335 unidades vendidas, mientras que el grupo de ubicación habitual registra 1040 unidades. La diferencia descriptiva es de 295 unidades a favor del pasillo principal.
+
+**¿Por qué con 4 filas no se puede concluir nada sobre el efecto de la ubicación?**
+
+La plantilla contiene solamente cuatro registros, dos por grupo. Esta cantidad es insuficiente para evaluar adecuadamente la variabilidad de las ventas y distinguir un posible efecto del tratamiento de fluctuaciones aleatorias u otros factores externos. Además, los datos de ejemplo no constituyen resultados de un experimento controlado.
+
+**Si el experimento se ejecutara con nuestro protocolo, ¿qué le faltaría a este análisis para ser justo?**
+
+Se necesitarían los registros de las 10 tiendas asignadas aleatoriamente durante cuatro semanas, así como información sobre precios, promociones, inventario y afluencia de clientes. También sería necesario considerar que las cuatro mediciones de cada tienda no son independientes y utilizar un análisis estadístico adecuado para evaluar el efecto de la ubicación y su incertidumbre.
+
+**Conclusión:**
+
+Aunque el pasillo principal presenta mayores ventas promedio en los datos de ejemplo, estos resultados no permiten afirmar que cambiar la ubicación del producto aumente sus ventas. El análisis demuestra únicamente cómo se compararían los grupos. Para obtener conclusiones fundamentadas sería necesario ejecutar el protocolo experimental diseñado.
+```
+
