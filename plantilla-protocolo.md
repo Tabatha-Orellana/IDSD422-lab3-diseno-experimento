@@ -54,9 +54,20 @@ Este tamaño se propone como un estudio piloto que permite evaluar la viabilidad
 
 La asignación de las tiendas a los grupos se realizará aleatoriamente antes del inicio del experimento. Ambos grupos mantendrán su condición durante las cuatro semanas para permitir una comparación de las ventas promedio semanales.
 
+
 ## 4. Grupo de control
 
-*¿Cuál es la referencia sin tratamiento y qué rol cumple?*
+El grupo de control estará conformado por 5 tiendas de RetailAndina S.A., seleccionadas mediante asignación aleatoria, que mantendrán el producto estrella en su ubicación habitual durante las cuatro semanas del experimento.
+
+Estas tiendas no recibirán la intervención de trasladar el producto al pasillo principal. Sin embargo, se registrarán sus ventas semanales utilizando el mismo procedimiento aplicado al grupo experimental.
+
+**Función del grupo de control:**
+
+Servir como referencia para comparar las ventas del producto estrella entre las tiendas que mantienen su ubicación habitual y aquellas que reciben el tratamiento.
+
+Esta comparación permitirá estimar si existen diferencias en las ventas promedio semanales asociadas al cambio de ubicación. La asignación aleatoria y el control de otros factores ayudarán a reducir posibles sesgos y explicaciones alternativas.
+
+Ambos grupos tendrán el mismo período de observación y las mismas condiciones comerciales, excepto por la ubicación del producto estrella.
 
 ## 5. Aleatorización
 
