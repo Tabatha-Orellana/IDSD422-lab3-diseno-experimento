@@ -28,12 +28,16 @@ H1: μprincipal > μhabitual
 Se plantea una comparación entre dos grupos de tiendas para determinar si cambiar la ubicación del producto estrella influye en sus ventas. La hipótesis es medible porque utiliza como variable de respuesta las unidades vendidas por semana, permitiendo comparar los promedios de ambos grupos durante cuatro semanas.
 
 
+
 ## 2. Unidad experimental
 
-*¿Qué recibe el tratamiento? ¿Cuántas unidades se incluyen?*
+- **Unidad:** Cada tienda de RetailAndina S.A. constituye una unidad experimental, porque es el establecimiento al que se asigna una de las dos condiciones de ubicación del producto estrella.
 
-- Unidad:
-- Número de unidades y justificación:
+- **Número de unidades y justificación:** Se seleccionarán 10 tiendas de RetailAndina S.A., distribuidas aleatoriamente en dos grupos de 5 tiendas cada uno. El grupo experimental ubicará el producto estrella en el pasillo principal, mientras que el grupo de control mantendrá su ubicación habitual.
+
+Las 10 tiendas participarán durante cuatro semanas consecutivas, manteniendo la ubicación asignada durante todo el período. Se registrarán las ventas semanales del producto en cada establecimiento, obteniendo 40 registros de ventas.
+
+Este tamaño se propone como un estudio piloto que permite evaluar la viabilidad del protocolo y comparar ambos grupos. Sin embargo, no garantiza suficiente potencia estadística para detectar diferencias pequeñas, por lo que sería necesario realizar un cálculo formal del tamaño muestral antes de implementar un experimento definitivo.
 
 ## 3. Factor, niveles y tratamiento
 
