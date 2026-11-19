@@ -1,8 +1,7 @@
 # Plantilla de protocolo — Experimento de ubicación de producto
 
-**Equipo:** ___ · **Integrantes:** ___ · **Fecha:** 27/10/2026
+**Nombre:** Tabatha Peñaloza · **Fecha:** 18/11/2026
 
-Completa cada sección. Usa commits por sección; la historia del repositorio se revisa.
 
 
 ## 1. Pregunta e hipótesis
@@ -202,5 +201,37 @@ Se necesitarían los registros de las 10 tiendas asignadas aleatoriamente durant
 **Conclusión:**
 
 Aunque el pasillo principal presenta mayores ventas promedio en los datos de ejemplo, estos resultados no permiten afirmar que cambiar la ubicación del producto aumente sus ventas. El análisis demuestra únicamente cómo se compararían los grupos. Para obtener conclusiones fundamentadas sería necesario ejecutar el protocolo experimental diseñado.
-```
+
+
+## Bonus: Adaptación del diseño a un ensayo clínico
+
+El diseño experimental de RetailAndina puede adaptarse conceptualmente a un ensayo clínico destinado a evaluar la eficacia de una vacuna en investigación.
+
+**Unidad experimental:** Cada participante elegible del ensayo clínico.
+
+**Factor:** Intervención preventiva asignada.
+
+**Niveles:** Vacuna en investigación y placebo o comparador autorizado, según las condiciones éticas y clínicas del estudio.
+
+**Tratamiento:** Administración de la vacuna en investigación al grupo experimental, siguiendo un protocolo clínico aprobado.
+
+**Grupo de control:** Participantes que reciben el comparador establecido en el protocolo. Este grupo permite estimar las diferencias en la incidencia de la enfermedad.
+
+**Aleatorización:** Los participantes serán distribuidos aleatoriamente entre los dos grupos mediante un procedimiento computacional reproducible. La asignación deberá contar con mecanismos de ocultamiento adecuados.
+
+**Variable respuesta:** Incidencia de la enfermedad confirmada mediante criterios diagnósticos previamente definidos durante el seguimiento.
+
+**Factores a controlar:**
+
+1. Edad y condiciones de salud: registrar y considerar posibles diferencias entre participantes.
+2. Exposición al agente infeccioso: registrar factores relevantes de exposición.
+3. Vacunación previa: establecer criterios de elegibilidad y documentar antecedentes.
+4. Cumplimiento del protocolo: registrar las dosis administradas, las visitas y las desviaciones del procedimiento.
+
+**Limitaciones:** El ensayo podría verse afectado por pérdidas de seguimiento, diferencias en la exposición, incumplimiento del protocolo o un tamaño muestral insuficiente. Sus resultados no serían automáticamente generalizables a todas las poblaciones.
+
+**Consideraciones éticas:** El estudio requeriría aprobación de un comité de ética, consentimiento informado, vigilancia de seguridad y cumplimiento de la normativa aplicable. No sería aceptable privar a los participantes de una intervención preventiva eficaz cuando ello implique riesgos injustificados.
+
+**Conclusión:** Ambos diseños utilizan asignación aleatoria, tratamiento, grupo de control y medición de una variable respuesta. Sin embargo, un ensayo clínico requiere salvaguardias éticas y procedimientos de seguridad adicionales.
+
 
