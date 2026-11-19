@@ -4,9 +4,29 @@
 
 Completa cada sección. Usa commits por sección; la historia del repositorio se revisa.
 
+
 ## 1. Pregunta e hipótesis
 
-*Hipótesis que el experimento pueda confirmar o refutar (formúlela como una comparación medible entre los grupos).*
+**Pregunta de investigación:**
+
+¿La ubicación del producto estrella de RetailAndina S.A. en el pasillo principal incrementa sus ventas promedio semanales en comparación con su ubicación habitual durante un período de cuatro semanas?
+
+**Hipótesis nula (H0):**
+
+Las ventas promedio semanales del producto estrella son iguales en las tiendas que mantienen su ubicación habitual y en las tiendas que lo colocan en el pasillo principal.
+
+H0: μprincipal = μhabitual
+
+**Hipótesis alternativa (H1):**
+
+Las ventas promedio semanales del producto estrella son mayores en las tiendas que lo colocan en el pasillo principal que en aquellas que mantienen su ubicación habitual.
+
+H1: μprincipal > μhabitual
+
+**Justificación:**
+
+Se plantea una comparación entre dos grupos de tiendas para determinar si cambiar la ubicación del producto estrella influye en sus ventas. La hipótesis es medible porque utiliza como variable de respuesta las unidades vendidas por semana, permitiendo comparar los promedios de ambos grupos durante cuatro semanas.
+
 
 ## 2. Unidad experimental
 
