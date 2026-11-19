@@ -69,11 +69,46 @@ Esta comparación permitirá estimar si existen diferencias en las ventas promed
 
 Ambos grupos tendrán el mismo período de observación y las mismas condiciones comerciales, excepto por la ubicación del producto estrella.
 
+
 ## 5. Aleatorización
 
-*¿Cómo se asignan las unidades a los grupos? ¿Por qué es necesaria?*
+Las 10 tiendas participantes serán asignadas aleatoriamente a dos grupos de igual tamaño: 5 tiendas al grupo experimental (pasillo principal) y 5 tiendas al grupo de control (ubicación habitual).
 
-- **Línea de código de la asignación (Python o R):** escribe el comando que asigna al azar tus N unidades a los dos grupos (tratamiento y control) y ejecútalo con semilla. Incluye el resultado de una corrida y explica por qué el sorteo reparte los factores desconocidos entre los grupos.
+La asignación se realizará mediante un sorteo computacional en Python, utilizando una semilla fija que permitirá reproducir los resultados.
+
+**Código de asignación aleatoria (Python):**
+
+```python
+import numpy as np
+
+tiendas = [f"T{i:02d}" for i in range(1, 11)]
+rng = np.random.default_rng(1234597)
+
+tiendas_aleatorias = rng.permutation(tiendas)
+
+experimental = tiendas_aleatorias[:5]
+control = tiendas_aleatorias[5:]
+
+print("Grupo experimental:", experimental.tolist())
+print("Grupo de control:", control.tolist())
+```
+
+**Resultado de la ejecución:**
+
+
+Grupo experimental (pasillo principal):
+['T01', 'T07', 'T08', 'T06', 'T09']
+
+Grupo de control (ubicación habitual):
+['T10', 'T05', 'T03', 'T02', 'T04']
+
+
+**Justificación:**
+
+La aleatorización permite que todas las tiendas tengan la misma probabilidad de ser asignadas a cualquiera de los dos grupos. Esto ayuda a distribuir los factores conocidos y desconocidos que podrían influir en las ventas, como diferencias de clientes, ubicación geográfica o afluencia.
+La asignación aleatoria no garantiza que ambos grupos sean idénticos, especialmente con solo 10 tiendas, pero reduce el sesgo de selección.
+Cada tienda conservará su ubicación asignada durante las cuatro semanas del experimento.
+
 
 ## 6. Respuesta y medición
 
