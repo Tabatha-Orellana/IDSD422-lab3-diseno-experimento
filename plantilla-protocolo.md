@@ -39,11 +39,20 @@ Las 10 tiendas participarán durante cuatro semanas consecutivas, manteniendo la
 
 Este tamaño se propone como un estudio piloto que permite evaluar la viabilidad del protocolo y comparar ambos grupos. Sin embargo, no garantiza suficiente potencia estadística para detectar diferencias pequeñas, por lo que sería necesario realizar un cálculo formal del tamaño muestral antes de implementar un experimento definitivo.
 
+
 ## 3. Factor, niveles y tratamiento
 
-- **Factor** (variable manipulada):
-- **Niveles** (valores del factor):
-- **Tratamiento** (combinación asignada):
+- **Factor (variable manipulada):** La ubicación del producto estrella dentro de las tiendas de RetailAndina S.A. Esta variable será manipulada por el equipo investigador para evaluar su efecto sobre las ventas promedio semanales.
+
+- **Niveles (valores del factor):**
+  1. Ubicación habitual: el producto permanece en el lugar donde normalmente se comercializa.
+  2. Pasillo principal: el producto se traslada al pasillo principal de la tienda.
+
+- **Tratamiento (combinación asignada):**
+  - Grupo experimental: 5 tiendas recibirán la intervención, que consiste en trasladar el producto estrella al pasillo principal durante cuatro semanas consecutivas.
+  - Grupo de control: 5 tiendas mantendrán el producto en su ubicación habitual durante el mismo período, sin recibir la intervención.
+
+La asignación de las tiendas a los grupos se realizará aleatoriamente antes del inicio del experimento. Ambos grupos mantendrán su condición durante las cuatro semanas para permitir una comparación de las ventas promedio semanales.
 
 ## 4. Grupo de control
 
