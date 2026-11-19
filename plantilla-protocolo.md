@@ -124,14 +124,26 @@ No será posible aplicar un cegamiento completo, porque el personal de las tiend
 Cada registro incluirá el código de la tienda, la semana, la ubicación asignada y las unidades vendidas del producto estrella.
 
 
+
 ## 7. Factores a controlar (mínimo 4)
+
+Para que las diferencias en las ventas puedan atribuirse con mayor confianza a la ubicación del producto estrella, se identificarán y controlarán otros factores que podrían influir en los resultados.
 
 | Factor a controlar | Cómo se controla o registra |
 |---|---|
-| 1. | |
-| 2. | |
-| 3. | |
-| 4. | |
+| 1. Precio del producto | Se mantendrá el mismo precio de venta del producto estrella en las 10 tiendas durante las cuatro semanas. Cualquier cambio excepcional se registrará para considerarlo en el análisis. |
+| 2. Promociones y descuentos | Se evitarán promociones exclusivas del producto durante el experimento. Si existe una promoción general que no pueda suspenderse, se registrarán la tienda, la semana y el tipo de promoción. |
+| 3. Disponibilidad de inventario | Se verificará diariamente que cada tienda disponga de existencias suficientes. Se registrarán los días con agotamiento de stock, ya que podrían reducir las ventas independientemente de la ubicación. |
+| 4. Afluencia de clientes | Se registrará el número de clientes o transacciones por tienda y semana mediante los sistemas disponibles. Esto permitirá evaluar si las diferencias de ventas están relacionadas con el flujo de compradores. |
+| 5. Temporada y días especiales | Ambos grupos serán observados durante las mismas cuatro semanas. Se registrarán feriados, eventos comerciales y fechas especiales que puedan modificar la demanda. |
+| 6. Características de las tiendas | Se registrarán la ciudad, el tamaño y el volumen histórico de ventas de cada tienda. Estas características se revisarán antes de la asignación para identificar posibles desequilibrios entre los grupos. |
+
+**Justificación:**
+
+El control de estos factores permitirá reducir la influencia de variables externas sobre las ventas del producto estrella. La asignación aleatoria ayudará a distribuir las características de las tiendas entre los grupos, mientras que el registro de precios, promociones, inventario y afluencia permitirá identificar posibles factores de confusión.
+
+Aunque estos controles no eliminan completamente todos los sesgos, contribuyen a que la comparación entre el grupo experimental y el grupo de control sea más confiable.
+
 
 ## 8. Limitaciones del diseño
 
